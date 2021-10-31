@@ -21,9 +21,6 @@ export default class App extends React.Component {
             style={style.flex1}
             hideDisplay
             onTextChange={text => this.setState({text})}
-            actionButtonBackgroundColor={'#EFCBDC'}
-            actionButtonColor={'#fff'}
-            calcButtonBackgroundColor={'#E55E9B'}
           />
         </View>
         <Text style={style.copyright}>
@@ -57,7 +54,6 @@ const style = StyleSheet.create({
     textAlign: 'center',
     paddingVertical: 10,
     fontWeight: '500',
-    backgroundColor: '#EFCBDC',
     borderTopWidth: 0.5,
   },
 });
